@@ -5310,3 +5310,14 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
         print("按钮被点击了!")
     end,
 })
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "99夜(无卡密)",
+    Callback = function()
+    --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yuxxxxscrripts/glacierhub/refs/heads/main/99nights.lua"))()
+        print("按钮被点击了!")
+    end,
+})
